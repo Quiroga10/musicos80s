@@ -1,0 +1,17 @@
+main{
+    grid-template-columns: auto auto auto auto;
+}
+.article__p{
+    height: 34rem;
+}
+form{
+    margin:0 auto;
+    width: 50%;
+    margin-bottom: 1.5rem;
+}
+nav{
+    flex: 0 1 15rem;
+}
+nav ul{
+    flex-direction: column;
+}

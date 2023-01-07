@@ -1,0 +1,7 @@
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.article__p{
+    height: 39rem;
+}
