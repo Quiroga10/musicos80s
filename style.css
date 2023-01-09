@@ -10,6 +10,9 @@ html{
 header{
     height:auto;
 }
+h1, form{
+    text-align: center;
+}
 h1{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(69, 69, 69);
@@ -28,8 +31,17 @@ input{
 input[type="text"]{
     width: 80%;
 }
-h1, form{
+
+.container{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+p{
+    font-size: large;
+    padding: 2rem;
     text-align: center;
+    color:black;
 }
 ul{
     list-style: none;
@@ -38,10 +50,8 @@ a{
     text-decoration: none;
     color: aliceblue;
 }
-nav, footer{
-    background-color: rgb(72 70 72);
-}
 nav{
+    background-color: rgb(72 70 72);
     flex: 1 1 1rem;
 }
 nav ul{
@@ -54,21 +64,7 @@ nav li a{
     padding: 0.5rem;
     border-radius: 1rem;
 }
-p{
-    font-size: large;
-    padding: 2rem;
-    text-align: center;
-    color:black;
-}
-img{
-    width: 8rem;
-    height: 8rem;
-}
-.container{
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-}
+
 main{
     height: auto;
     flex: 1 1 82rem;
@@ -84,11 +80,26 @@ article{
     height: auto;
     justify-content: space-between;
 }
-.article__img{
-    height: 37.9rem;
-    width: 30rem;
+img{
+    width: 8rem;
+    height: 8rem;
 }
-.article__p{
+.article__title{
+    margin-bottom:1rem;
+    background-color: beige;
+}
+.article__title h1{
+    margin:0 auto;
+    padding: 0.5rem;
+}
+.article__title p{
+    background-color: rgb(252, 249, 249);
+    font-size: 1.4rem;
+}
+.dimension{
+    width: 18rem;
+}
+.article__info{
     color: white;
     background-color:rgb(75 104 110);
     border-radius: 1rem;
@@ -96,26 +107,13 @@ article{
 button{
     margin:1rem 0 0 11rem;
 }
-.dimension{
-    width: 18rem;
-}
-.article__header{
-    margin-bottom:1rem;
-    background-color: beige;
-}
-.article__header p{
-    background-color: rgb(252, 249, 249);
-    font-size: 1.4rem;
-}
-.article__header h1{
-    margin:0 auto;
-    padding: 0.5rem;
-}
+
 footer{
     display: flex;
     justify-content: space-between;
     gap: 4rem;
     padding: 1.5rem;
+    background-color: rgb(81, 80, 80);
     color: white;
 }
 footer ul{
