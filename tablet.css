@@ -1,7 +1,13 @@
+body{
+    background-image: url("./img/Fondos/fondo-tablet.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 main{
     display: grid;
     grid-template-columns: auto auto;
 }
-.article__p{
+.article__info{
     height: 18rem;
 }

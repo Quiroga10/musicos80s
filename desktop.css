@@ -1,10 +1,16 @@
+body{
+    background-image: url("./img/Fondos/fondo-deskopt.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 main{
     grid-template-columns: auto auto auto auto;
 }
 article{
     padding:3.8rem;
 }
-.article__p{
+.article__info{
     height: 21rem;
 }
 form{
@@ -14,10 +20,36 @@ form{
 }
 nav{
     flex: 0 1 10rem;
+    text-align: center;
+    font-size: 1.2rem;
 }
 nav ul{
+    margin-top: 15rem;
     flex-direction: column;
 }
 nav ul li{
-    margin-bottom:1rem;
+    height: 4rem;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 3rem;
+    border-radius: 2rem;
+    padding-top: 1rem;
+}
+ul li:hover{
+    border: 2px solid currentColor;
+    border-radius: 2rem;
+    color: rgb(100, 138, 146);
+    font-size: 1.3rem;
+    font-weight: 100;
+    overflow: hidden;
+    transition: .2s transform ease-in-out;
+    will-change: transform;
+}
+nav li a{
+    background-color: white;
+    color: black;
+}
+
+article img:hover{
+    width: 8.2rem;
+    height: 8.2rem;
 }
